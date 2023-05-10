@@ -1,0 +1,6 @@
+var numberA = prompt("Unesite visinu:");
+var numberB = prompt("Unesite poluprečnik osnove valjka:");
+var numberC = Math.PI;
+
+var sum = parseFloat(numberA) * parseFloat(numberB**2) * parseFloat(numberC) ;
+alert("Sum is: " + sum.toFixed(2));
